@@ -1,0 +1,106 @@
+.recover-password{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: red; */
+    }
+    .rec-pass1{
+        height: 70px;
+        width: 250px;
+        position: absolute;
+        top: 400px;
+        left: 300px;
+    font-size: 60px;
+    /* background-color: aqua; */
+    }
+    .recover-password img{
+        height: 80%;
+        width: 80%;
+        object-fit: cover;
+        position: relative;
+    }
+    .recover{
+        height: 500px;
+        width: 450px;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        position: absolute;
+        top: 100px;
+        right: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-Arrow{
+        height: 70px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color: black;
+    }
+    .recover-input{
+        height: 400px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        border: none;
+        outline: none;
+        /* background-color: aqua; */
+    }
+    .recover-1{
+        height: 70%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .rec-1{
+        height: 50px;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        /* background-color: brown; */
+    }
+    .recover-1 p{
+        height: 50px;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .email{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    /* background-color: blue; */
+
+    }
+ 
+    .email p{
+        height: 40px;
+        width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    font-size: 18px;
+    /* background-color: blue; */
+    }
+    .email input{
+        height: 40px;
+        width: 100%;
+        border-radius:5px ;
+        border:0.5px solid black;
+        padding-left: 10px;
+        position: relative;
+    }
+
+   
+    
