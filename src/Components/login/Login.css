@@ -24,7 +24,12 @@
     right: 250px;
     display: flex;
     flex-direction: column;
- }   
+ }  
+ form{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+ } 
 .log-input{
     height: 500px;
     width: 100%;
@@ -36,6 +41,17 @@
     justify-content: space-evenly;
     /* background-color: red; */
 }
+
+  .message {
+    height: 20px;
+    width: auto;
+    color: red;
+  }
+  
+  .message1 {
+    color: green;
+  }
+  
 .logIn-1{
 height: 350px;
 width: 100%;
@@ -88,8 +104,8 @@ border-top:1px  solid black;
     height: 15px;
     width: 15px;
 position: absolute;
-left: 30px;
-bottom: 285px;
+right: 70px;
+bottom: 325px;
     cursor: pointer;
     font-size: 15px;
 }
